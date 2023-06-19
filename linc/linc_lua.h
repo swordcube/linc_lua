@@ -3,7 +3,7 @@
 //hxcpp include should always be first 
 #ifndef HXCPP_H
 #include <hxcpp.h>
-#end
+#endif
 #include <hx/CFFI.h>
 
 //include other library includes as needed

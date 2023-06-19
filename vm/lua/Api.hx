@@ -94,7 +94,7 @@ extern class Api {
     
     
     @:native('lua_getglobal')
-    static function lua_getglobal(l:State, name:String):Dynamic;
+    static function lua_getglobal(l:State, name:String):Void;
     @:native('lua_setglobal')
     static function lua_setglobal(l:State, name:String):Void;
     @:native('lua_newtable')
